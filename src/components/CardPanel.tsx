@@ -38,7 +38,7 @@ export default function CardPanel() {
   const [ratings, dispatch] = useReducer(ratingsReducer, undefined, initialRatings);
 
   return (
-    <section className="mx-auto w-full max-w-6xl px-6 py-10">
+    <section className="w-full px-6 py-10">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {venues.map((venue) => (
           <Card
