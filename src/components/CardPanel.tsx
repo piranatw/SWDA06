@@ -59,7 +59,7 @@ export default function CardPanel() {
             key={venueName}
             type="button"
             data-testid={venueName}
-            className="w-full rounded-md bg-white px-4 py-3 text-left shadow-sm transition hover:bg-slate-100"
+            className="w-full rounded-md bg-white px-4 py-3 text-left text-black shadow-sm transition hover:bg-slate-100"
             onClick={() => dispatch({ type: "remove", venueName })}
           >
             {venueName} Rating : {rating}
